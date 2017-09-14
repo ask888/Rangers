@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+}
+html{
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, serif;
+}
+.wrap{
+    max-width: 1200px;
+    width: 80%;
+    margin: 20px auto;
+}
+header{
+
+
+}
+#logo{
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+    height: 85px;
+}
+#site-title{
+    text-align: center;
+    font-size: 30px;
+}
+.nav{
+    margin: 42px 0;
+}
+.nav ul{
+    background: #0000ff;
+    width: 100%;
+    height: 43px;
+}
+.nav li{
+    display: inline-block;
+    margin-left: 96px;
+}
+.nav a{
+    text-decoration: none;
+    line-height: 43px;
+    color: #ffffff;
+
+}
+/* Main */
+.simple{
+    float: right;
+}
+.main p{
+    margin-top: 19px;
+    letter-spacing: 1px;
+}
